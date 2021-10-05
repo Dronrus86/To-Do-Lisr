@@ -1,0 +1,143 @@
+  
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-width: 1150px;
+    margin: auto;
+  }
+  
+  h1{
+      text-align: center;
+  }
+
+main {
+    margin: auto;
+    width: 75%;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: rgb(250, 255, 255);
+    padding-bottom: 3%;
+    height: auto;
+  }
+
+
+  button{
+    background-color:  rgb(187, 236, 175);;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    width: 200px;
+  }
+
+
+  .add:hover{
+      background-color: rgb(66, 218, 66);
+  }
+
+.button{
+    text-align: center;
+}
+  .options{
+      text-align: center;
+      padding-top: 10px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 20px;
+      width: 90%;
+    
+
+    
+  }
+
+  .input{
+    background-color:rgb(238, 231, 223);
+    border-radius: 5px;
+    border:none; 
+    width: 30%;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  #selectID{
+      font-size: 14px;
+      background-color:rgb(238, 231, 223);;
+      padding: 5px;
+      border-radius: 5px;
+      border:none; 
+     
+  }
+
+  .input:hover{
+    background-color: rgb(66, 218, 66);
+  }
+  #selectID:hover{
+    background-color: rgb(66, 218, 66);
+  }
+  textarea:hover{
+    background-color: rgb(66, 218, 66);
+  }
+
+  textarea  {
+    background-color:rgb(238, 231, 223);;
+    border-radius: 5px;
+    border:none;
+    width: 30%;
+    font-size: 17px;
+    margin-left: 10%;
+    font-family: "Roboto", sans-serif;
+    }
+   
+
+    .meny{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    width: 95%;
+
+    }
+
+    ul li{
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+
+
+
+   #task_list{
+      
+       padding-left: 15px;
+      
+     
+   }
+
+#task_list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+
+#task_list li{
+list-style: none;
+margin: 30px;
+
+}
+
+
+#list  li{
+text-align: center;
+width: 60%;
+height: auto;
+}
